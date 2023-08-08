@@ -1,0 +1,19 @@
+.coyote {
+    position: absolute;
+    bottom: 0;
+    width: auto;
+    height: 70px;
+    right: auto;
+    animation: coyote-animation 2s infinite linear;
+    transform: rotateY(180deg);
+}
+
+@keyframes coyote-animation {
+    from{
+        right: 0;
+    }
+
+    to{
+        right: 100%;
+    }
+}
